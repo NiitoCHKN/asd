@@ -1,5 +1,7 @@
 {
-  "name": "bot",
-  "version": "1.0.0",
-  "node": "8.9.4"
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "semver": "^5.5.0"
+  }
 }
