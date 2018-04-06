@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const bot = new Discord.Client ();
+const client = new Discord.Client ();
 
 bot.on('ready', () => {
   console.log('I am ready!');
@@ -60,4 +60,4 @@ bot.on('guildMemberAdd', member => {
          console.log(`${member.user.username} has joined`);
 });
 
-bot.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
