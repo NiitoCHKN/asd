@@ -1,7 +1,8 @@
 {
-  "name": "",
-  "version": "",
-  "dependencies": {
-    "semver": "^5.5.0"
+  "name": "myapp",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.9.4"
   }
 }
